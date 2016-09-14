@@ -11,12 +11,12 @@ module.exports = (Franz, options) => {
     // set Franz badge
     // updates => active unread count
     // inbox => passive unread count
-    Franz.setBadge(updates, inbox);
+    // Franz.setBadge(updates, inbox);
   };
 
   // inject franz.css stylesheet
   // Franz.injectCSS(path.join(__dirname, 'css', 'franz.css'));
 
   // check for new messages every second and update Franz badge
-  Franz.loop(getMessages);
+  // Franz.loop(getMessages);
 };
