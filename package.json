@@ -1,0 +1,23 @@
+{
+  "name": "Twitter",
+  "version": "0.1.0",
+  "description": "Twitter",
+  "main": "index.js",
+  "author": "kevin@pixelpush.io",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://mobile.twitter.com/",
+    "serviceName": "Twitter",
+    "message": "Twitter plugin for Franz",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
